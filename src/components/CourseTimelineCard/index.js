@@ -1,5 +1,5 @@
-// Write your code here
-import {AiFillerClockCircle} from 'react-icons/ai'
+import {AiFillClockCircle} from 'react-icons/ai'
+
 import {
   CourseTitleAndDurationContainer,
   CourseTitle,
@@ -20,7 +20,7 @@ const CourseTimelineCard = props => {
       <CourseTitleAndDurationContainer>
         <CourseTitle>{courseTitle}</CourseTitle>
         <DurationContainer>
-          <AiFillerClockCircle color="#171f46" />
+          <AiFillClockCircle color="#171f46" />
           <Duration>{duration}</Duration>
         </DurationContainer>
       </CourseTitleAndDurationContainer>
